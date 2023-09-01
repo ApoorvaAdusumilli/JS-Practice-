@@ -1,0 +1,21 @@
+<html>
+<head>
+<h1>CHECKING EVEN OR ODD</h1>
+</head>
+<body>
+<p id="demo">
+</p>
+<script>
+const number=Math.floor(Math.random() * 100) + 1;
+alert(number)
+let output;
+if(number%2==0){
+ output="Even Number";
+}
+else{
+output="Odd number";
+}
+document.getElementById("demo").innerHTML=output;
+</script>
+</body>
+</html>
